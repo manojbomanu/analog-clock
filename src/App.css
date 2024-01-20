@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.root-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  background-color: black;
+}
+
+.hand {
+  position: absolute;
+  transform-origin: bottom left;
+  left: 50%;
+}
+
+.hour {
+  top: 70px;
+  height: 70px;
+  width: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.minute {
+  top: 10px;
+  height: 125px;
+  width: 3px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.second {
+  top: 20px;
+  height: 120px;
+  width: 3px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.number {
+  position: absolute;
+  height: 140px;
+  width: 10px;
+  transform-origin: bottom left;
+  left: 50%;
+}
+
+.number1 {
+  transform: rotate(30deg);
+}
+
+.number2 {
+  transform: rotate(60deg);
+}
+
+.number3 {
+  transform: rotate(90deg);
+}
+
+.number4 {
+  transform: rotate(120deg);
+}
+
+.number5 {
+  transform: rotate(150deg);
+}
+
+.number6 {
+  transform: rotate(180deg);
+}
+
+.number7 {
+  transform: rotate(210deg);
+}
+
+.number8 {
+  transform: rotate(240deg);
+}
+
+.number9 {
+  transform: rotate(270deg);
+}
+
+.number10 {
+  transform: rotate(300deg);
+}
+
+.number11 {
+  transform: rotate(330deg);
+}
+
+.number12 {
+  transform: rotate(360deg);
+}
+
+.rev {
+ position: absolute;
+ text-align: center;
+}
+
+.rev1 {
+  transform: rotate(-30deg);
+}
+
+.rev2 {
+  transform: rotate(-60deg);
+}
+
+.rev3 {
+  transform: rotate(-90deg);
+}
+
+.rev4 {
+  transform: rotate(-120deg);
+}
+
+.rev5 {
+  transform: rotate(-150deg);
+}
+
+.rev6 {
+  transform: rotate(-180deg);
+}
+
+.rev7 {
+  transform: rotate(-210deg);
+}
+
+.rev8 {
+  transform: rotate(-240deg);
+}
+
+.rev9 {
+  transform: rotate(-270deg);
+}
+
+.rev10 {
+  transform: rotate(-300deg);
+}
+
+.rev11 {
+  transform: rotate(-330deg);
+}
+
+.rev12 {
+  transform: rotate(-360deg);
+}
+
+.dial {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-color: white;
+  inset: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  transform: rotate(-30deg);
+  /* animation: spinner 5s reverse infinite; */
+}
+
+.Box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  inset: 0;
+  position: absolute;
+  margin: auto;
+  /* animation: spinner 5s infinite; */
+  transform: rotate(30deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  } 
+  to {
+    transform: rotate(360deg);
+  }
+}
